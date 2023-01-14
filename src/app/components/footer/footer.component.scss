@@ -1,0 +1,63 @@
+footer {
+
+  background: rgb(5, 4, 145);
+
+}
+
+ul.social-network {
+
+  list-style: none;
+  padding: 0;
+
+}
+
+ul.social-network li {
+
+  display: inline;
+  margin: 0;
+  padding: 5px;
+
+}
+
+.icons {
+
+  color: #fff;
+
+}
+
+.icoLinkedin:hover {
+
+  color: #0e76a8;
+
+}
+
+.icoInstagram:hover {
+
+  color: #e1306c;
+
+}
+
+.icoGithub:hover {
+
+  color: #000000;
+
+}
+
+.footer-copyright {
+
+  font-size: 16pt;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px 0;
+
+}
+
+.bg-footer {
+
+    background: rgb(5,4,145);
+    background: linear-gradient(87deg, rgba(5,4,145,1) 0%, rgba(16,58,117,1) 100%);
+    box-shadow: 0 8px 32px rgba(5,4,145, 0.37);
+    backdrop-filter: blur(15.5);
+    -webkit-backdrop-filter: blur(15.5);
+
+}

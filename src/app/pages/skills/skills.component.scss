@@ -1,0 +1,50 @@
+.bg-skills {
+
+  background: rgb(5, 4, 145);
+  background: linear-gradient(87deg, rgba(5, 4, 145, 1) 0%, rgba(16, 58, 117, 1) 100%);
+  box-shadow: 0 8 32px rgba(5, 4, 145, 0.37);
+  backdrop-filter: blur(15.5);
+  -webkit-backdrop-filter: blur(15.5);
+
+  min-height: 740px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.fa{
+
+    color: #79a0f525;
+    
+
+}
+
+.checked{
+
+    color: #00ffffa8;
+
+}
+
+.checked:hover{
+
+    color: #33ffff;
+    transition: 0.3s;
+
+}
+
+.card{
+
+    background: transparent;
+    box-shadow: 0 8px 32px 0 rgba(53, 107, 182, 0.37);
+    backdrop-filter: blur(15.5px);
+    -webkit-backdrop-filter: blur(15.5px);
+    
+}
+
+.icons{
+
+    font-size: 70px;
+
+}

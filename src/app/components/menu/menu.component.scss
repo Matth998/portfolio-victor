@@ -1,0 +1,14 @@
+.bg-menu {
+
+  background: rgb(5, 4, 145);
+  background: linear-gradient(87deg, rgba(5,4,145,1) 0%, rgba(16,58,117,1) 100%);
+  box-shadow: 0 8px 32px 0 rgba(5, 4, 145, 0.37);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+
+  backdrop-filter: blur(15.5px);
+
+}

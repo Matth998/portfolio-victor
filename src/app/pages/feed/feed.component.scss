@@ -1,0 +1,125 @@
+.bg-feed {
+
+  background: #fff;
+
+}
+
+.animated-text {
+
+  font-weight: 900;
+  font-size: 35px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #fff, #000, #fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 5s linear infinite;
+  position: relative;
+
+}
+
+.img-profile {
+
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid rgba(16, 58, 117, 1);
+  box-shadow: 0 10px 50px rgba(16, 58, 117, 1);
+
+}
+
+.text-about {
+
+  font-size: 20px;
+
+}
+
+@media (hover: hover) {
+  #creditcard {
+    transform: translateY(110px);
+    transition: transform 0.1s ease-in-out;
+  }
+
+  #money {
+    transform: translateY(180px);
+    transition: transform 0.1s ease-in-out;
+  }
+
+  button:hover #creditcard {
+    transform: translateY(0px);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  button:hover #money {
+    transform: translateY(0px);
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-0.25rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+// Animation Text
+
+@keyframes shine {
+
+  0% {
+
+    background-position-x: -500%;
+
+  }
+
+  100% {
+
+    background-position-x: 500%;
+
+  }
+
+}
+
+.button:hover .button__text span {
+    transform: translateY(-0.25rem);
+    transition: transform .2s ease-in-out;
+  }
+  
+  .button {
+    border: none;
+    outline: none;
+    background-color: purple;
+    padding: 1rem 90px 1rem 2rem;
+    position: relative;
+    border-radius: 8px;
+    letter-spacing: 0.7px;
+    background-color: #5086bd;
+    color: #fff;
+    font-size: 21px;
+    font-family: "Lato", sans-serif;
+    cursor: pointer;
+    box-shadow: rgba(0, 9, 61, 0.2) 0px 4px 8px 0px;
+  }
+  
+  .button:active {
+    transform: translateY(1px);
+  }
+  
+  .button__svg {
+    position: absolute;
+    overflow: visible;
+    bottom: 6px;
+    right: 0.2rem;
+    height: 140%;
+  }

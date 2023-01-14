@@ -1,0 +1,57 @@
+.bg{
+
+    background: rgb(5,4,145);
+    background: linear-gradient(87deg, rgba(5,4,145,1) 0%, rgba(16,58,117,1) 100%);
+    box-shadow: 0 8 32px rgba(5,4,145,0.37);
+    backdrop-filter: blur(15.5);
+    -webkit-backdrop-filter: blur(15.5);
+
+    min-height: 740px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.button-home {
+
+  --b: 0.1em;
+  --c: #46b8d1;
+
+  color: #0000;
+  padding-block: var(--b);
+  background: linear-gradient(var(--c) 50%, #fff 0) 0% calc(100% - var(--_p, 0%))/100% 200%, linear-gradient(var(--c) 0 0) 0% var(--_p, 0%)/var(--_p, 0%) var(--b) no-repeat;
+  -webkit-background-clip: text, padding-box;
+    background-clip: text, padding-box;
+  transition: .3s var(--_s, 0s) linear,background-size .3s calc(.3s - var(--_s, 0s));
+
+}
+
+.button-home:hover{
+
+    --_p: 100%;
+    --_s: .3s;
+
+}
+
+.text-home{
+
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 0 .1em;
+
+}
+
+.img-home{
+
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 6px solid whitesmoke;
+    box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.5);
+    margin-bottom: 1rem;
+
+}
